@@ -1,0 +1,12 @@
+.title-bar {
+  background: linear-gradient(-135deg, #223a70, #00a3af) !important;
+
+  a {
+    color: $white;
+
+    &:hover {
+      opacity: .8;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+fieldset {
+  .button {
+    background-color: $main-color;
+  }
+}
+
+.single {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.post-page {
+  background: white;
+  position: relative;
+  z-index: 11;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
