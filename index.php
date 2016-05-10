@@ -33,7 +33,8 @@
               </div>
           </div>
         </div>
-        <?php endwhile;
+        <?php
+          endwhile;
           else :
         ?>
         <div class="small-12 medium-6 large-4 column">
