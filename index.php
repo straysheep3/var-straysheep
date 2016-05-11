@@ -16,8 +16,8 @@
               ?>
                 <a href="<?php the_permalink(); ?>">
                   <?php
-                    if ( mb_strlen( $post->post_title ) > 40 ) {
-                      $title = mb_substr( $post->post_title ,0 , 40);
+                    if ( mb_strlen( $post->post_title ) > 60 ) {
+                      $title = mb_substr( $post->post_title ,0 , 60);
                       echo $title. '...';
                     } else {
                       echo $post->post_title;
